@@ -1,2 +1,2 @@
-# bootcamp_uvm
-This a a bootcamp by UVM
+# Bootcamp Desarrollo Web
+Ejercicios del Bootcamp Desarrollo Web

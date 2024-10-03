@@ -11,20 +11,30 @@
 
 .main-container {
     display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .main-container .item{
-    align-content: center;
     height: 100px;
     width: 100px;
     border: 1px solid black;
+
 }
 
 .toggles {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .toggles button{
     margin: 10px;
     cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
 }

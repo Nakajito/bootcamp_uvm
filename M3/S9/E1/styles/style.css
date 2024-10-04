@@ -18,6 +18,7 @@
 .main-container .item{
     height: 100px;
     width: 100px;
+    margin: 0 10px;
     border: 1px solid black;
 
 }
@@ -32,6 +33,22 @@
 .toggles button{
     margin: 10px;
     cursor: pointer;
+}
+
+.color1 {
+    background-color: brown;
+}
+
+.color2 {
+    background-color: blueviolet;
+}
+
+.rounded {
+    border-radius: 15px;
+}
+
+.square {
+    border-radius: 0;
 }
 
 footer {

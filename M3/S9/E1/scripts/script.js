@@ -1,17 +1,15 @@
 $(Document).ready(function(){
 
-    const $nuevoDiv = $('<div class="item"></div>');
-
     $('#color').click(function(){
-        $('.item').css({'background-color': 'red'});
+        $('.item').toggleClass("color1 color2");
     });
 
     $('#borde').click(function(){
-        $('.item').css({'border-radius':'30px'})
+        $('.item').toggleClass("square rounded")
     });
 
     $('#nuevo').click(function () {
-        $('.main-container').append($nuevoDiv);
+        $('.main-container').append('<div class="item color1 square"></div>');
     });
 
 });

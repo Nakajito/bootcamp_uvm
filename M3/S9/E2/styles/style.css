@@ -39,23 +39,11 @@
 }
 
 
-.color1 {
-    background-color: brown;
-}
-
-.color2 {
-    background-color: blueviolet;
-}
-
-.rounded {
-    border-radius: 15px;
-}
-
-.square {
-    border-radius: 0;
-}
-
 footer {
     display: flex;
     justify-content: space-around;
+    background-color: black;
+    color: cornsilk;
+    padding: 30px;
+    
 }

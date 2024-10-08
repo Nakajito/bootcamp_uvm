@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.main-container .item{
+    height: 100px;
+    width: 100px;
+    margin: 0 10px;
+    border: 1px solid black;
+
+}
+
+.toggles {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.toggles button{
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: cornsilk;
+    padding: 30px;
+    
+}

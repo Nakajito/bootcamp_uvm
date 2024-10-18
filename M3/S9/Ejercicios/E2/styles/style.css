@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+.color1 {
+    background-color: lightblue;
+}
+.color2 {
+    background-color: lightgreen;
+}
+
+.rounded {
+    border-radius: 15px;
+}
+.square {
+    border-radius: 0px;
+}
+
 .titulo {
     text-align: center;
     margin-top: 10px;

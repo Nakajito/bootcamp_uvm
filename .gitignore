@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows,linux,macos,images
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,windows,linux,macos,images
+# Created by https://www.toptal.com/developers/gitignore/api/linux,macos,images,windows,visualstudiocode,microsoftoffice
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,images,windows,visualstudiocode,microsoftoffice
 
 ### Images ###
 # JPEG
@@ -33,7 +33,7 @@
 *.webp
 
 # Portable Network Graphics
-#*.png
+*.png
 
 # Animated Portable Network Graphics
 *.apng
@@ -114,6 +114,27 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+### MicrosoftOffice ###
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -159,4 +180,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows,linux,macos,images
+# End of https://www.toptal.com/developers/gitignore/api/linux,macos,images,windows,visualstudiocode,microsoftoffice

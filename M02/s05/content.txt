@@ -1,0 +1,11 @@
+Título de la página: Mi Primer Sitio Web (h1)
+
+Texto: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula orci at justo ultricies, ac varius augue interdum. Nulla facilisi. Aenean congue, ligula sit amet vulputate hendrerit, justo risus fermentum velit, non convallis odio quam ut odio. Integer vitae semper lectus. Phasellus eget metus ut eros tempus dictum.
+
+Encabezado: Imagen de ejemplo (h2)
+Texto: Esta es una imagen de muestra para esta página:
+URL de la imagen: https://via.placeholder.com/400x200
+
+Encabezado: Video de introducción (h2)
+Texto: A continuación, un video introductorio sobre HTML y CSS:
+URL del video de YouTube: https://www.youtube.com/watch?v=UB1O30fR-EE

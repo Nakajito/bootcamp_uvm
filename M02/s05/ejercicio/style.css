@@ -1,0 +1,116 @@
+/* Configuración base */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Estilo general */
+main {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #0056b3;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+    text-align: justify;
+}
+
+/* Estilos personalizados para texto */
+.color-azul {
+    color: #007bff;
+}
+
+.color-rojo {
+    color: #dc3545;
+}
+
+.color-verde {
+    color: #28a745;
+}
+
+.mayuscula {
+    text-transform: uppercase;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+/* Contenedor con diseño */
+.contenedor {
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contenedor img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+/* Estilo del video */
+iframe {
+    margin-top: 1rem;
+    width: 600px;
+    height: 400px;
+    max-width: 560px;
+    border-radius: 8px;
+    border: none;
+    display: block;
+}
+
+/* Estilos para enlaces */
+a {
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    main, .contenedor {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    iframe {
+        height: 315px;
+    }
+}

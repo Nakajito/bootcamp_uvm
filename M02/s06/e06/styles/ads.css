@@ -1,0 +1,38 @@
+.ads {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.ads-header h2 {
+    font-size: 1.8rem;
+    color: #007BFF;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+.ads-content p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.ads-footer .ads-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.ads-footer .ads-link:hover {
+    background-color: #0056b3;
+}

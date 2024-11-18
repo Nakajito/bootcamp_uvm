@@ -10,3 +10,7 @@ Practicar programación de Javascript mediante los conceptos adquiridos de arreg
 6.	Se incorporan dos nuevos concursantes, Raúl y Sofía, situándose detrás de Elena y antes de Carlos
 7.	Una nueva participante, Carmen, toma la posición principal en la clasificación
 8.	Imprime la clasificación actualizada y verifica que se haya realizado correctamente
+
+## ITERACIÓN DE ARREGLOS
+Escribe un programa en JavaScript para mostrar el estado de lectura (es decir, mostrar el nombre del libro, el nombre del autor y el estado de lectura) de los siguientes libros.
+![alt text](image.png)

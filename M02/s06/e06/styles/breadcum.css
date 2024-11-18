@@ -1,0 +1,26 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #6c757d; /* Gris profesional */
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Fondo claro */
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.breadcrumb-link {
+    color: #007BFF; /* Azul profesional */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb-link:hover {
+    color: #0056b3; /* Azul más oscuro en hover */
+}
+
+.breadcrumb-separator {
+    margin: 0 8px;
+    color: #6c757d; /* Gris para separadores */
+}

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+.character-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.character-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.character-card img {
+    max-width: 100%;
+    border-radius: 5%;
+}
+.character-name {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+.character-species {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.character-status {
+    font-size: 0.9rem;
+    color: #555;
+}

@@ -28,7 +28,7 @@ document.getElementById('login').addEventListener('click', () => {
 
     if (usuarioEncontrado) {
         alert(mensajes.loginExitoso);
-        window.location.href = 'panel.html'; // Redirigir al panel
+        window.location.href = 'pages/panel.html'; // Redirigir al panel
     } else {
         alert(mensajes.credencialesInvalidas);
     }
@@ -78,5 +78,5 @@ document.getElementById('saveUser').addEventListener('click', () => {
     document.getElementById('passwordNewUser').value = '';
 
     // Redirigir a la página de inicio de sesión
-    window.location.href = 'index.html';
+    window.location.href = '../index.html';
 });

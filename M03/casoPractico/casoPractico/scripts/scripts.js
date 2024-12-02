@@ -1,4 +1,4 @@
-// Verificar si hay usuarios en LocalStorage y cargarlos
+// Base de datos simulada en LocalStorage
 let usuarios = JSON.parse(localStorage.getItem('usuarios')) || [
     { usuario: 'admin', password: '1234' },
 ];
@@ -6,10 +6,9 @@ let usuarios = JSON.parse(localStorage.getItem('usuarios')) || [
 // Mensajes de texto reutilizables
 const mensajes = {
     camposVacios: 'Por favor, llena todos los campos.',
-    credencialesInvalidas: 'Credenciales incorrectas. Intenta de nuevo.',
-    loginExitoso: 'Inicio de sesión exitoso. ¡Bienvenido!',
     usuarioExistente: 'El usuario ya está registrado.',
     registroExitoso: 'Usuario registrado con éxito. Tu usuario es:',
+    loginExitoso: 'Bienvenido',
 };
 
 // Función para manejar el login
@@ -34,49 +33,7 @@ document.getElementById('login').addEventListener('click', () => {
     }
 });
 
-// Función para validar campos vacíos
+// Validar campos vacíos
 function validarCampos(...campos) {
-    return campos.every(campo => campo.trim() !== '');
+    return campos.every(campo => campo !== '');
 }
-
-// Función para guardar un nuevo usuario
-document.getElementById('saveUser').addEventListener('click', () => {
-    const nombre = document.getElementById('nameNewUser').value.trim();
-    const apellido = document.getElementById('lastnameNewUser').value.trim();
-    const password = document.getElementById('passwordNewUser').value.trim();
-
-    if (!validarCampos(nombre, apellido, password)) {
-        alert(mensajes.camposVacios);
-        return;
-    }
-
-    const nuevoUsuario = {
-        usuario: `${nombre.toLowerCase()}-${apellido.toLowerCase()}`,
-        password: password,
-    };
-
-    const existeUsuario = usuarios.some(
-        usuario => usuario.usuario === nuevoUsuario.usuario
-    );
-
-    if (existeUsuario) {
-        alert(mensajes.usuarioExistente);
-        return;
-    }
-
-    // Agregar el nuevo usuario al arreglo
-    usuarios.push(nuevoUsuario);
-
-    // Guardar en LocalStorage
-    localStorage.setItem('usuarios', JSON.stringify(usuarios));
-
-    alert(`${mensajes.registroExitoso} ${nuevoUsuario.usuario}`);
-
-    // Limpiar los campos del formulario
-    document.getElementById('nameNewUser').value = '';
-    document.getElementById('lastnameNewUser').value = '';
-    document.getElementById('passwordNewUser').value = '';
-
-    // Redirigir a la página de inicio de sesión
-    window.location.href = '../index.html';
-});

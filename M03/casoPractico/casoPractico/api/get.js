@@ -1,6 +1,5 @@
 const apiUrl = "https://rickandmortyapi.com/api/character";
 
-// Obtener los personajes de la API y mostrarlos en la página
 function fetchCharacters() {
     fetch(apiUrl)
         .then((response) => {
@@ -28,5 +27,8 @@ function fetchCharacters() {
         });
 }
 
-// Llamar a la función para obtener los personajes
+document.getElementById('goBack').addEventListener('click', () => {
+    window.history.back();
+});
+
 fetchCharacters();

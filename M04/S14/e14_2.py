@@ -71,5 +71,6 @@ def main():
             break
         else:
             print("Opción no válida. Por favor, seleccione una opción entre 1 y 5.")
-
-
+            
+if __name__ == "__main__":
+    main()

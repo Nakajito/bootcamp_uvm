@@ -25,6 +25,7 @@ try:
     print(f'El numero {check_num} está presente en la pisición {index_num} de la lista')
 except ValueError:
     print(f'El número {check_num} no se encuentra en la lista')
+print('#####################')
 
 list_int.pop()
 print(f'La lista actualizada despues de eliminar el ultimo elemento: {list_int}')

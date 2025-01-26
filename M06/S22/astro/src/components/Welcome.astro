@@ -1,0 +1,156 @@
+<div class="container">
+	<header>
+		<h1 class="title">Biblioteca Digital</h1>
+		<p class="subtitle">Explora cientos de libros</p>
+		<button class="btn-primary">Ver libros</button>
+	</header>
+
+	<main>
+		<section class="popular-books">
+		<h2 class="section-title">Libros populares</h2>
+		<div class="books">
+			<div class="book">
+				<img src='../assets/01.jpg' alt="Portada del libro: El Principito" class="book-img" />
+				<h3 class="book-title">El Principito</h3>
+				<p class="book-author">Saint-Exupéry</p>
+			</div>
+			
+			<div class="book">
+				<img src="../assets/02.webp" alt="Portada del libro: El Alquimista" class="book-img" />
+				<h3 class="book-title">El Alquimista</h3>
+				<p class="book-author">Paulo Coelho</p>
+			</div>
+			<div class="book">
+				<img src="../assets/03.webp" alt="Portada del libro: El Arte de Amar" class="book-img" />
+				<h3 class="book-title">El Arte de Amar</h3>
+				<p class="book-author">Erich Fromm</p>
+			</div>
+
+			<div class="book">
+				<img src="../assets/04.webp" alt="Portada del libro: El Arte de Amar" class="book-img" />
+				<h3 class="book-title">El Arte de la Guerra</h3>
+				<p class="book-author">Sun Tzu</p>
+			</div>
+		</div>
+    </section>
+	</main>
+
+	<footer>
+		<p class="footer-text">&copy; 2025 Biblioteca Digital. Todos los derechos reservados.</p>
+	</footer>
+</div>
+
+<style>
+	:root {
+		--primary-color: #3498db;
+		--secondary-color: #2c3e50;
+		--light-color: #ecf0f1;
+		--gray-color: #7f8c8d;
+		--shadow-color: rgba(0, 0, 0, 0.1);
+	}
+
+	body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+		line-height: 1.6;
+		color: var(--secondary-color);
+		background-color: var(--light-color);
+	}
+
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 20px;
+	}
+
+	header {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.title {
+		font-size: 2.5rem;
+		color: var(--secondary-color);
+	}
+
+	.subtitle {
+		font-size: 1.2rem;
+		margin: 10px 0;
+	}
+
+	.btn-primary {
+		background-color: var(--primary-color);
+		color: var(--light-color);
+		padding: 10px 20px;
+		border: none;
+		border-radius: 5px;
+		font-size: 1rem;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+	}
+
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+
+  .popular-books {
+    margin-top: 20px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--secondary-color);
+  }
+
+  .books {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .book {
+    background-color: var(--light-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .book:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px var(--shadow-color);
+  }
+
+  .book-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+
+  .book-title {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+  }
+
+  .book-author {
+    font-size: 0.9rem;
+    color: var(--gray-color);
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+  }
+
+  .footer-text {
+    font-size: 0.9rem;
+  }
+</style>

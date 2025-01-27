@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Usuarios</title>
+    <link rel="stylesheet" href="/styles.css">
+
+</head>
+<body>
+    <h1>Usuarios</h1>
+    <div class="card-container">
+        <% users.forEach(user => { %>
+        <div class="card">
+            <h2><%= user.name %></h2>
+            <p><strong>Email:</strong> <%= user.email %></p>
+            <p><strong>Teléfono:</strong> <%= user.phone %></p>
+            <p><strong>Dirección:</strong> <%= user.address.street %>, <%= user.address.city %></p>
+        </div>
+        <% }); %>
+    </div>
+    
+</body>
+</html>

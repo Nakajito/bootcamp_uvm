@@ -7,6 +7,7 @@ Escribe un programa en Python que solicite al usuario ingresar una lista de núm
 2.	Calcular y mostrar la suma de todos los números en la lista.
 3.	Verificar si un número específico ingresado por el usuario está presente en la lista. Si está presente, mostrar su índice en la lista.
 4.	Eliminar el último elemento de la lista y mostrar la lista actualizada.
+
 # EJERCICIO 2- GESTIÓN DE ESTUDIANTES CON DICCIONARIOS
 Crea un programa en Python que permita a un profesor gestionar una lista de estudiantes. El programa debe ofrecer las siguientes opciones:
 1.	Agregar un nuevo estudiante con su nombre y su calificación.
